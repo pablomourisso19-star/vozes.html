@@ -10,6 +10,12 @@
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;scroll-padding-top:86px}
 body{margin:0;background:var(--bg);color:var(--text);font-family:var(--sans);font-size:15px;line-height:1.75;overflow-x:hidden}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
 a{color:inherit}
 .reading-progress{position:fixed;z-index:1200;top:0;left:0;width:0;height:3px;background:var(--red)}
 .site-nav{background:rgba(12,12,12,.88);backdrop-filter:blur(16px);border-bottom:1px solid var(--line);padding:13px 0}
