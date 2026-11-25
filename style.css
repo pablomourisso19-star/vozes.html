@@ -20,7 +20,7 @@ a{color:inherit}
 .nav-link:hover{color:#fff!important}
 .nav-cta{border:1px solid rgba(213,43,50,.7);color:#fff!important;padding:11px 14px!important}
 .nav-cta:hover{background:var(--red)}
-.hero{min-height:100svh;position:relative;display:flex;align-items:center;background:#171717 url('../fundo.jpeg') center 35%/cover no-repeat;isolation:isolate}
+.hero{min-height:100svh;position:relative;display:flex;align-items:center;background:#171717 url('fundo.jpeg') center 35%/cover no-repeat;isolation:isolate}
 .hero:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(7,7,7,.96) 0%,rgba(7,7,7,.75) 48%,rgba(7,7,7,.22) 100%);z-index:-1}
 .hero:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,var(--bg),transparent 25%);z-index:-1}
 .hero-inner{padding-top:110px;padding-bottom:100px}
