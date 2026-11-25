@@ -10,6 +10,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Entrada progressiva dos blocos ao entrarem na área visível.
   const revealItems = document.querySelectorAll(".reveal");
+  // Garante que o conteúdo principal da capa apareça imediatamente.
+  document.querySelectorAll(".hero .reveal").forEach((item) => item.classList.add("is-visible"));
   if ("IntersectionObserver" in window) {
     const observer = new IntersectionObserver((entries, currentObserver) => {
       entries.forEach((entry) => {
